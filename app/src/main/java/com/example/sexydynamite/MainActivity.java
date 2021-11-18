@@ -14,14 +14,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_carmera_certification);
 
-        Button imageButton1 =(Button) findViewById(R.id.btn1);
+        /*Button imageButton1 =(Button) findViewById(R.id.btn1);
         imageButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(getApplicationContext(), cameraActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
 
         Button imageButton2 =(Button) findViewById(R.id.btn2);
         imageButton2.setOnClickListener(new View.OnClickListener() {
