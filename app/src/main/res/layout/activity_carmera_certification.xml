@@ -37,8 +37,6 @@
         tools:layout_editor_absoluteX="308dp"
         tools:layout_editor_absoluteY="500dp" />
 
-
-
     <ImageView
         android:layout_width="363dp"
         android:layout_height="402dp"
