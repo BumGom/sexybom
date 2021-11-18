@@ -16,7 +16,7 @@
             android:textSize="25dp"
             android:textAllCaps="false"
             android:textColor="#000000"
-            android:background="#FFFFFF"
+            android:background="#FFF"
             android:layout_gravity="center"
             android:layout_marginTop="200dp"/>
 
