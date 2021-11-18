@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="363dp"
+        android:layout_height="402dp"
+        android:adjustViewBounds="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/carmera"
+        android:translationY="100dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="-24dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="5"
+        android:text="인증"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="5"
+        android:text="인증 내역"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="563dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
