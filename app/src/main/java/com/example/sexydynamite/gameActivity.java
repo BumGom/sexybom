@@ -6,11 +6,14 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.bumptech.glide.Glide;
 
 public class gameActivity extends AppCompatActivity {
     VideoView vv;
@@ -28,7 +31,7 @@ public class gameActivity extends AppCompatActivity {
             }
         });*/
 
-        vv= findViewById(R.id.vv);
+        /*vv= findViewById(R.id.vv);
         //Video Uri
         Uri videoUri= Uri.parse("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4");
 
@@ -48,6 +51,10 @@ public class gameActivity extends AppCompatActivity {
                 //비디오 시작
                 vv.start();
             }
-        });
+        });*/
+
+        ImageView dnagif = (ImageView)findViewById(R.id.dna);
+        Glide.with(this).load(R.raw.dna).into(dnagif);
+
     }
 }

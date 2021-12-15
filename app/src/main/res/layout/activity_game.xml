@@ -27,8 +27,12 @@
             android:adjustViewBounds="false"
             android:scaleType="centerCrop"
             android:background="@drawable/dna" />-->
-        <VideoView
+        <!--<VideoView
             android:id="@+id/vv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>-->
+        <ImageView
+            android:id="@+id/dna"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
