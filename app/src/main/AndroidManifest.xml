@@ -22,7 +22,6 @@
         <activity android:name=".listActivity"/>
         <activity android:name=".gameActivity"/>
         <activity android:name=".exActivity"/>
-        <activity android:name=".UnityPlayerActivity"/>
 
     </application>
 
