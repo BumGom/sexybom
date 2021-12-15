@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SexyDynamite">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -22,11 +22,7 @@
         <activity android:name=".listActivity"/>
         <activity android:name=".gameActivity"/>
         <activity android:name=".exActivity"/>
-
         <activity android:name=".UnityPlayerActivity"/>
-
-
-
 
     </application>
 
