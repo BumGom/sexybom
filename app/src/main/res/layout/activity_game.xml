@@ -20,12 +20,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <ImageView
+        <Button
+            android:id="@+id/dnagame"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="false"
             android:scaleType="centerCrop"
-            android:src="@drawable/dna" />
+            android:background="@drawable/dna" />
 
     </LinearLayout>
 

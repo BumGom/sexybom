@@ -59,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+
         //View Objects
         buttonScan = (Button) findViewById(R.id.buttonScan);
 
